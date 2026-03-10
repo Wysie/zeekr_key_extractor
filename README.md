@@ -139,6 +139,7 @@ client = ZeekrClient(
 
 client.login()
 print("Login successful!")
+print(client.get_vehicle_list())
 ```
 
 ## How It Works
