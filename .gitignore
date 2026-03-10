@@ -1,0 +1,23 @@
+# APK files - do not commit
+*.apk
+
+# Extracted secrets
+zeekr_secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
