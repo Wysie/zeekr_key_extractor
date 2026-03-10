@@ -158,6 +158,14 @@ The extractor uses two techniques to find the secrets:
    - Applies the XOR operations to decrypt the strings in-place
    - Maps the decrypted strings to the correct region/environment using the ELF relocation table
 
+## Tested Versions
+
+| App | Version | Status |
+|---|---|---|
+| Zeekr (com.zeekr.global) | 1.5.3 | All 6 secrets extracted successfully |
+
+If you have tested with a different version, please open an issue or PR to update this table.
+
 ## Troubleshooting
 
 **"HMAC Access Key: NOT FOUND"** — The script will print a list of candidate values. The OLLVM encryption pattern may have changed in a newer APK version. Try the candidates manually, or use JADX + Ghidra for manual inspection.
